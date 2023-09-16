@@ -90,6 +90,17 @@
             padding: 10px;
 
         }
+        #Food{
+            background-color: rgb(255, 196, 0);
+            height: 300px;
+            width: 40%;
+            float: right;
+        }
+        #Stats{
+            float: right;
+            background-color: rgb(0,0,0,);
+            color: rgb(255, 255, 255);
+        }
     </style>
 </head>
 
@@ -97,7 +108,7 @@
 
     <h1>Introduction
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        Last Updated 3/9/23</h1>
+        Last Updated 6/6/23</h1>
     <p>Hi.Welcome to my website. I made it from HTML.</p>
     <img src="orca.jpg" width="200" alt="an orca">
     <p> An orca, my favorite animal ↑</p>
@@ -158,11 +169,11 @@
             whole lot of math.</p>
         <p> I am good at gamming. I beat Hyra in Brawl Stars, beat Stockfish at chess, beat Yatagurusu on Geometry Dash, beat Dream at speedrunning Minecraft, and beat Matthew Faitel and Fortnite.(JK)Me and
             my older brother have 38000+ Legos and -1+ Lambos. I have
-            10000000000000000000000000000000000000000000000000000000000000000- dollars. This code has 489 lines and...
+            10000000000000000000000000000000000000000000000000000000000000000- dollars. This code has 497 lines and...
             Hey! you should help <a target="_blank" href="https://popcat.click/"> your country click in Popcat!</a> </p>
         <p>For those of you that don't know, Brawl Stars is agame where you use unlocked brawlers to brawl other people
-            and get trophies to upgrade your unlocked brawlers and unlock new ones.</p>
-        <img src="brawl.jpg" alt="brawl stars" width="350">
+            and get trophies to upgrade your unlocked brawlers and unlock new ones. My username is Booooooooooo, so if you seee me, plz help get my sam to Gold III</p>
+        <img id="bbrawl" src="unnamed.jpg" alt="brawl stars" width="350">
         <div class="school">
             <h3>School life</h3>
             <p>I have some friends at school to start popularity of this website. Speaking of popularity,I am known at
@@ -186,7 +197,7 @@
         <p>Now back to me. I am a pretty good piano player. if you want to see me play click <a target="_blank"
                 href="https://www.youtube.com/watch?v=Qskm9MTz2V4">here</a>. I also can play the trumpet and want to
             learn the drums, trombone, and saxaphone. Do you play a instrument? I bet you can't play <a
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">this</a>. I also am minimal at chess.</p>
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">this</a>. I also am minimal at chess. I play baseball, basketball, and kinda play soccer..  </p>
         </div>
         
 <div id="math">
@@ -298,6 +309,26 @@
                 <tr>
                     <td>24 </td>
                     <td class="td-rule">Divisible by 8 and 3 </td>
+                </tr>
+                <tr>
+                    <td>25 </td>
+                    <td class="td-rule">If the first two digits are divisible by 25, then the whole number is divisible by 25. </td>
+                </tr>
+                <tr>
+                    <td>26 </td>
+                    <td class="td-rule">Divisible by 13 and 2 </td>
+                </tr>
+                <tr>
+                    <td>27 </td>
+                    <td class="td-rule">If the last digit times eight minus the rest is divisible by 27, then the whole number is divisible by 27. </td>
+                </tr>
+                <tr>
+                    <td>28 </td>
+                    <td class="td-rule">Divisible by 7 and 4 </td>
+                </tr>
+                <tr>
+                    <td>29 </td>
+                    <td class="td-rule">If the last digit times 3 plus the rest is divisible by 29, then the whole thing is divisible by 29.</td>
                 </tr>
 
             </tbody>
@@ -451,8 +482,7 @@
             </tbody>
         </table>
     </div>
-    <br>
-    <br>
+
     <div id="youtube-subs">
         <h4>People to watch on Youtube</h4>
 <p> Have you ever had it where you don't know what to watch? Here are some suggestions:</p>
@@ -470,8 +500,43 @@
 
 </ul>
     </div>
-    
+    <div id="Food">
+<h3> &nbsp; Favorite food</h3>
+<ul>
+<li>Taco Bell</li>
+<li> Domino's</li>
+<li>Chipotle</li>
+<li>Pizza Hut</li>
+<li>Subway</li>
+<li>In-n-Out</li>
+<li>Olive Garden</li>
+</ul>
+    </div>
+    <div id="Stats">
 
+
+<table>
+ <thead>My Actual Stats</thead>
+ <tbody>
+    <tr>
+<th>Category</th>
+<th> My Stat</th>
+    </tr>
+    <tr>
+<td>Age</td>
+<td><span id="age">9.95071868583</span></td>
+    </tr>
+ </tbody>
+</table>
+    </div>
+    <script>
+var brawli = document.getElementsByTagName("img");
+    for(var i=0;i<brawli.length;i++){
+      brawli[i].title = brawli[i].alt;
+       
+};
+
+       </script>
 </body>
 
 </html>
